@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Milagros Eucarísticos</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+    * {margin:0;padding:0;box-sizing:border-box;}
+    body {font-family:'Roboto',sans-serif; background: linear-gradient(to right,#f7f4f0,#e8f0f2); color:#333;}
+    header {background-color:#f5e6dc; text-align:center; padding:40px 20px; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+    header h1 {font-family:'Playfair Display',serif; font-size:2.8em; color:#6b2d2d; margin-bottom:10px;}
+    header p {font-size:1.2em; color:#7a4c3e;}
+    nav {text-align:center; background-color:#e0d4c3; padding:15px 0;}
+    nav a {color:#6b2d2d; text-decoration:none; margin:0 15px; font-weight:bold; transition:0.3s;}
+    nav a:hover {color:#d9775b;}
+    main {max-width:1200px; margin:40px auto; padding:0 20px;}
+    section {margin-bottom:50px;}
+    section h2 {font-family:'Playfair Display',serif; font-size:2em; color:#6b2d2d; margin-bottom:20px; text-align:center;}
+    .miracros-container {display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:30px;}
+    .milagro-card {background-color:#fffaf4; border-radius:15px; box-shadow:0 4px 8px rgba(0,0,0,0.1); padding:20px; transition:transform 0.3s;}
+    .milagro-card:hover {transform:translateY(-10px);}
+    .milagro-card img {width:100%; border-radius:10px; margin-bottom:15px;}
+    .milagro-card h3 {color:#8b3c3c; margin-bottom:10px;}
+    .milagro-card p {font-size:0.95em; line-height:1.5; color:#5c4a42;}
+    footer {text-align:center; padding:30px 20px; background-color:#f5e6dc; color:#6b2d2d; font-size:0.95em;}
+    @media(max-width:768px){header h1 {font-size:2.2em;} section h2 {font-size:1.7em;}}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Milagros Eucarísticos</h1>
+    <p>Explora los testimonios de fe y los milagros alrededor de la Eucaristía</p>
+</header>
+
+<nav>
+    <a href="#lanciano">Lanciano</a>
+    <a href="#bolsena">Bolsena</a>
+    <a href="#casia">Casia</a>
+    <a href="#cimballa">Cimballa</a>
+    <a href="#buenosaires">Buenos Aires</a>
+    <a href="#legnica">Legnica</a>
+    <a href="#sokolka">Sokółka</a>
+    <a href="#asis">Asís</a>
+    <a href="#montserrat">Montserrat</a>
+    <a href="#betania">Betania</a>
+</nav>
+
+<main>
+<section id="lanciano">
+    <h2>Lanciano, Italia (Año 700)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Santuario_di_Lanciano_-_Ostia_miracolosa.jpg" alt="Milagro de Lanciano">
+            <h3>Milagro de Lanciano</h3>
+            <p>Durante una misa, un monje dudaba de la presencia real de Cristo. La hostia se transformó en carne y el vino en sangre, confirmando científicamente la autenticidad del milagro.</p>
+        </div>
+    </div>
+</section>
+
+<section id="bolsena">
+    <h2>Bolsena-Orvieto, Italia (1263)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Corporal_de_Bolsena.jpg" alt="Milagro de Bolsena">
+            <h3>Milagro de Bolsena</h3>
+            <p>Un sacerdote dudoso vio cómo la hostia sangraba durante la consagración, lo que llevó a instituir la fiesta del Corpus Christi por el Papa Urbano IV.</p>
+        </div>
+    </div>
+</section>
+
+<section id="casia">
+    <h2>Casia, Italia (1330)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cascia_-_Monastero_di_Santa_Rita.jpg" alt="Milagro de Casia">
+            <h3>Milagro de Casia</h3>
+            <p>Un sacerdote que transportaba la hostia encontró manchas de sangre en su breviario al llegar al destino. Las páginas se conservan y se veneran hasta hoy.</p>
+        </div>
+    </div>
+</section>
+
+<section id="cimballa">
+    <h2>Cimballa, España (1370)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Cimballa_-_Iglesia_de_San_Miguel_Arc%C3%A1ngel.jpg" alt="Milagro de Cimballa">
+            <h3>Milagro de Cimballa</h3>
+            <p>Un sacerdote dudoso vio cómo la hostia se transformó en carne y sangre durante la misa. El corporal manchado se conserva y se venera cada 12 de septiembre.</p>
+        </div>
+    </div>
+</section>
+
+<section id="buenosaires">
+    <h2>Buenos Aires, Argentina (1992, 1994, 1996)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Buenos_Aires_-_Parroquia_Santa_Mar%C3%ADa.jpg" alt="Milagro Buenos Aires">
+            <h3>Milagros de Buenos Aires</h3>
+            <p>En la parroquia de Santa María, fragmentos de hostia consagrada aparecieron en el corporal (1992), sangre en el sagrario (1994) y hostia con tejido sangrante (1996). La sangre era humana, tipo AB.</p>
+        </div>
+    </div>
+</section>
+
+<section id="legnica">
+    <h2>Legnica, Polonia (2013)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Legnica_Cathedral.jpg" alt="Milagro Legnica">
+            <h3>Milagro de Legnica</h3>
+            <p>Durante la misa de Navidad, una hostia cayó al suelo y fue colocada en agua. Días después apareció una mancha rojiza fibrosa reconocida como milagro eucarístico.</p>
+        </div>
+    </div>
+</section>
+
+<section id="sokolka">
+    <h2>Sokółka, Polonia (2008)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Sokolka.jpg" alt="Milagro Sokółka">
+            <h3>Milagro de Sokółka</h3>
+            <p>Una hostia caída al suelo fue colocada en agua. Al abrir el recipiente se encontró una mancha roja confirmada por la Iglesia como milagro eucarístico.</p>
+        </div>
+    </div>
+</section>
+
+<section id="asis">
+    <h2>Asís, Italia (1240)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Assisi_Santa_Chiara.jpg" alt="Milagro Asís">
+            <h3>Milagro de Asís</h3>
+            <p>Santa Clara levantó el Santísimo Sacramento frente a un ejército sarraceno, y milagrosamente el ejército se retiró sin causar daño al convento.</p>
+        </div>
+    </div>
+</section>
+
+<section id="montserrat">
+    <h2>Montserrat, España (1657)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Monestir_de_Montserrat.jpg" alt="Milagro Montserrat">
+            <h3>Milagro de Montserrat</h3>
+            <p>Una niña encargó misas para su padre y al abrir el libro de misas se encontraron manchas de sangre, reconocidas como milagro eucarístico.</p>
+        </div>
+    </div>
+</section>
+
+<section id="betania">
+    <h2>Betania, Venezuela (1991)</h2>
+    <div class="miracros-container">
+        <div class="milagro-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Betania_Venezuela_church.jpg" alt="Milagro Betania">
+            <h3>Milagro de Betania</h3>
+            <p>Durante la misa, una hostia consagrada se transformó en carne y sangre, reconocida como milagro eucarístico por la Iglesia.</p>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+&copy; 2025 Milagros Eucarísticos  Benjamin Calella | Todos los derechos reservados 
+</footer>
+
+</body>
+</html>
